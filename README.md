@@ -1,7 +1,10 @@
-# test coverage for  [cucumber (v1.3.2)](http://github.com/cucumber/cucumber-js)  [![npm package](https://img.shields.io/npm/v/npmtest-cucumber.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cucumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cucumber.svg)](https://travis-ci.org/npmtest/node-npmtest-cucumber)
+# npmtest-cucumber
+
+#### basic test coverage for  [cucumber (v1.3.2)](http://github.com/cucumber/cucumber-js)  [![npm package](https://img.shields.io/npm/v/npmtest-cucumber.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cucumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cucumber.svg)](https://travis-ci.org/npmtest/node-npmtest-cucumber)
+
 #### The official JavaScript implementation of Cucumber.
 
-[![NPM](https://nodei.co/npm/cucumber.png?downloads=true)](https://www.npmjs.com/package/cucumber)
+[![NPM](https://nodei.co/npm/cucumber.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cucumber)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-cucumber/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cucumber/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cucumber/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cucumber/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cucumber/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cucumber/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-cucumber/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-cucumber/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cucumber/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-cucumber/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-cucumber%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cucumber/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cucumber/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-cucumber/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cucumber/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-cucumber%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cucumber/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-cucumber/build/test-report.html](https://npmtest.github.io/node-npmtest-cucumber/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-cucumber/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cucumber/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-cucumber/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cucumber/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cucumber/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cucumber/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-cucumber/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Julien Biezemans",
-        "email": "jb@jbpros.com",
         "url": "http://jbpros.net"
     },
     "bin": {
@@ -37,83 +45,66 @@
         "cucumberjs": "./bin/cucumber.js"
     },
     "bugs": {
-        "url": "http://github.com/cucumber/cucumber-js/issues",
-        "email": "cukes@googlegroups.com"
+        "url": "http://github.com/cucumber/cucumber-js/issues"
     },
     "contributors": [
         {
             "name": "Julien Biezemans",
-            "email": "jb@jbpros.com",
             "url": "http://jbpros.net"
         },
         {
-            "name": "Fernando Acorreia",
-            "email": "fernandoacorreia@gmail.com"
+            "name": "Fernando Acorreia"
         },
         {
-            "name": "Paul Jensen",
-            "email": "paulbjensen@gmail.com"
+            "name": "Paul Jensen"
         },
         {
             "name": "Kushal Pisavadia"
         },
         {
-            "name": "Olivier Melcher",
-            "email": "olivier.melcher@gmail.com"
+            "name": "Olivier Melcher"
         },
         {
-            "name": "Tristan Dunn",
-            "email": "tristanzdunn@gmail.com"
+            "name": "Tristan Dunn"
         },
         {
             "name": "Ted de Koning"
         },
         {
-            "name": "Renier Morales",
-            "email": "renier@morales-rodriguez.net"
+            "name": "Renier Morales"
         },
         {
-            "name": "Aslak Hellesøy",
-            "email": "aslak.hellesoy@gmail.com"
+            "name": "Aslak Hellesøy"
         },
         {
             "name": "Aaron Garvey"
         },
         {
-            "name": "Omar Gonzalez",
-            "email": "omar@almerblank.com"
+            "name": "Omar Gonzalez"
         },
         {
-            "name": "Chris Young",
-            "email": "chris@chrisyoung.org"
+            "name": "Chris Young"
         },
         {
-            "name": "Israel Halle",
-            "email": "isra017@gmail.com"
+            "name": "Israel Halle"
         },
         {
-            "name": "Matteo Collina",
-            "email": "matteo.collina@gmail.com"
+            "name": "Matteo Collina"
         },
         {
-            "name": "Niklas Närhinen",
-            "email": "niklas@narhinen.net"
+            "name": "Niklas Närhinen"
         },
         {
-            "name": "Kim, Jang-hwan",
-            "email": "janghwan@gmail.com"
+            "name": "Kim, Jang-hwan"
         },
         {
-            "name": "Michael Zedeler",
-            "email": "michael@zedeler.dk"
+            "name": "Michael Zedeler"
         },
         {
-            "name": "Tom V",
-            "email": "tom@toc.com"
+            "name": "Tom V"
         },
         {
-            "name": "David Godfrey",
-            "email": "reactiveraven@reactiveraven.co.uk"
+            "name": "David Godfrey"
         },
         {
             "name": "Paul Shannon",
@@ -121,244 +112,184 @@
         },
         {
             "name": "Simon Dean",
-            "email": "simon@simondean.org",
             "url": "http://www.simondean.org"
         },
         {
-            "name": "John Wright",
-            "email": "johngeorge.wright@gmail.com"
+            "name": "John Wright"
         },
         {
-            "name": "Johny Jose",
-            "email": "johny@playlyfe.com"
+            "name": "Johny Jose"
         },
         {
-            "name": "Marat Dyatko",
-            "email": "vectart@gmail.com"
+            "name": "Marat Dyatko"
         },
         {
-            "name": "Tim Perry",
-            "email": "tim.perry@softwire.com"
+            "name": "Tim Perry"
         },
         {
-            "name": "Fedotov Daniil",
-            "email": "hairyhum@gmail.com"
+            "name": "Fedotov Daniil"
         },
         {
-            "name": "unknown",
-            "email": "jharlin@NormanDev2.telogical.com"
+            "name": "unknown"
         },
         {
-            "name": "Ben Van Treese",
-            "email": "vantreeseba@gmail.com"
+            "name": "Ben Van Treese"
         },
         {
-            "name": "Gabe Hayes",
-            "email": "gabriel.hayes@gmail.com"
+            "name": "Gabe Hayes"
         },
         {
-            "name": "Brian Clozel",
-            "email": "brian.clozel@gmail.com"
+            "name": "Brian Clozel"
         },
         {
-            "name": "Lukas Degener",
-            "email": "l.degener@tarent.de"
+            "name": "Lukas Degener"
         },
         {
-            "name": "Simon Lampen",
-            "email": "simonlampen@vinsight.net"
+            "name": "Simon Lampen"
         },
         {
-            "name": "Eddie Loeffen",
-            "email": "eddieloeffen@gmail.com"
+            "name": "Eddie Loeffen"
         },
         {
-            "name": "Stanley Shyiko",
-            "email": "stanley.shyiko@gmail.com"
+            "name": "Stanley Shyiko"
         },
         {
-            "name": "Artur Kania",
-            "email": "kaniartur@gmail.com"
+            "name": "Artur Kania"
         },
         {
-            "name": "Sam Saccone",
-            "email": "sam@samx.it"
+            "name": "Sam Saccone"
         },
         {
-            "name": "Craig Morris",
-            "email": "craig.michael.morris@gmail.com"
+            "name": "Craig Morris"
         },
         {
-            "name": "Gary Taylor",
-            "email": "gary.taylor@hismessages.com"
+            "name": "Gary Taylor"
         },
         {
-            "name": "Krispin Schulz",
-            "email": "krispin.schulz@blackbridge.com"
+            "name": "Krispin Schulz"
         },
         {
-            "name": "Elwyn",
-            "email": "elwyn@L1.co.nz"
+            "name": "Elwyn"
         },
         {
-            "name": "Jan-Eric Duden",
-            "email": "jeduden@gmail.com"
+            "name": "Jan-Eric Duden"
         },
         {
-            "name": "kostya.misura",
-            "email": "kostya.misura@gmail.com"
+            "name": "kostya.misura"
         },
         {
-            "name": "Julian",
-            "email": "microweb10@gmail.com"
+            "name": "Julian"
         },
         {
-            "name": "nebehr",
-            "email": "thorgeir@tut.by"
+            "name": "nebehr"
         },
         {
-            "name": "Jesse Harlin",
-            "email": "harlinjesse@gmail.com"
+            "name": "Jesse Harlin"
         },
         {
-            "name": "Sonny Piers",
-            "email": "sonny@fastmail.net"
+            "name": "Sonny Piers"
         },
         {
-            "name": "Will Farrell",
-            "email": "will@mojotech.com"
+            "name": "Will Farrell"
         },
         {
-            "name": "Kevin Kirsche",
-            "email": "Kev.Kirsche+GitHub@gmail.com"
+            "name": "Kevin Kirsche"
         },
         {
-            "name": "chrismilleruk",
-            "email": "chrismilleruk@gmail.com"
+            "name": "chrismilleruk"
         },
         {
-            "name": "Mateusz Derks",
-            "email": "mateusz.derks@schibsted.pl"
+            "name": "Mateusz Derks"
         },
         {
-            "name": "Mark Amery",
-            "email": "markamery@btinternet.com"
+            "name": "Mark Amery"
         },
         {
-            "name": "Artem Repko",
-            "email": "roby-boby@ukr.net"
+            "name": "Artem Repko"
         },
         {
-            "name": "zs-zs",
-            "email": "zsolt.zsigmondi@hotmail.com"
+            "name": "zs-zs"
         },
         {
-            "name": "Dale Gardner",
-            "email": "dalegardner@live.com"
+            "name": "Dale Gardner"
         },
         {
-            "name": "Charles Rudolph",
-            "email": "charles.rudolph@originate.com"
+            "name": "Charles Rudolph"
         },
         {
-            "name": "Karthik Viswanath",
-            "email": "karthik.viswanath-contractor@adp.com"
+            "name": "Karthik Viswanath"
         },
         {
-            "name": "Marcel Hoyer",
-            "email": "mhoyer@pixelplastic.de"
+            "name": "Marcel Hoyer"
         },
         {
-            "name": "Artem Bronitsky",
-            "email": "quex@yandex.ru"
+            "name": "Artem Bronitsky"
         },
         {
-            "name": "Karine Pires",
-            "email": "karine.pires@alterway.fr"
+            "name": "Karine Pires"
         },
         {
-            "name": "Rick Lee-Morlang",
-            "email": "rick@lee-morlang.com"
+            "name": "Rick Lee-Morlang"
         },
         {
-            "name": "Noah Davis",
-            "email": "noahd1@yahoo.com"
+            "name": "Noah Davis"
         },
         {
-            "name": "Miika Hänninen",
-            "email": "miika.hanninen@gmail.com"
+            "name": "Miika Hänninen"
         },
         {
-            "name": "Kevin Goslar",
-            "email": "kevin.goslar@gmail.com"
+            "name": "Kevin Goslar"
         },
         {
-            "name": "John Krull",
-            "email": "astrom.flux@gmail.com"
+            "name": "John Krull"
         },
         {
-            "name": "Maxim Koretskiy",
-            "email": "mr.green.tv@gmail.com"
+            "name": "Maxim Koretskiy"
         },
         {
-            "name": "seantdg",
-            "email": "sm.davis@gmx.com"
+            "name": "seantdg"
         },
         {
-            "name": "Marc Burton",
-            "email": "marc.burton@first-utility.com"
+            "name": "Marc Burton"
         },
         {
-            "name": "Jonathan Kim",
-            "email": "jkimbo@gmail.com"
+            "name": "Jonathan Kim"
         },
         {
-            "name": "Ádám Gólya",
-            "email": "adam.golya@lab.coop"
+            "name": "Ádám Gólya"
         },
         {
-            "name": "Scott Deakin",
-            "email": "scott.deakin@kantar.com"
+            "name": "Scott Deakin"
         },
         {
-            "name": "efokschaner",
-            "email": "eddyaod@gmail.com"
+            "name": "efokschaner"
         },
         {
-            "name": "John McLaughlin",
-            "email": "john.mjhm@gmail.com"
+            "name": "John McLaughlin"
         },
         {
-            "name": "Josh Goldberg",
-            "email": "joshuakgoldberg@outlook.com"
+            "name": "Josh Goldberg"
         },
         {
-            "name": "Artur Pomadowski",
-            "email": "artur.pomadowski@gmail.com"
+            "name": "Artur Pomadowski"
         },
         {
-            "name": "Benjamín Eidelman",
-            "email": "beneidel+gh@gmail.com"
+            "name": "Benjamín Eidelman"
         },
         {
-            "name": "Jan Molak",
-            "email": "jan.molak@smartcodeltd.co.uk"
+            "name": "Jan Molak"
         },
         {
-            "name": "dbillingham",
-            "email": "dbillinghamuk@yahoo.co.uk"
+            "name": "dbillingham"
         },
         {
-            "name": "Jonathan Gomez",
-            "email": "jonathanbgomez@gmail.com"
+            "name": "Jonathan Gomez"
         },
         {
-            "name": "Oliver Rogers",
-            "email": "oli.rogers@gmail.com"
+            "name": "Oliver Rogers"
         },
         {
-            "name": "Hugues Malphettes",
-            "email": "hmalphettes@gmail.com"
+            "name": "Hugues Malphettes"
         }
     ],
     "dependencies": {
@@ -421,17 +352,14 @@
     "main": "./lib/cucumber",
     "maintainers": [
         {
-            "name": "charlierudolph",
-            "email": "charles.w.rudolph@gmail.com"
+            "name": "charlierudolph"
         },
         {
-            "name": "jbpros",
-            "email": "jb@jbpros.com"
+            "name": "jbpros"
         }
     ],
     "name": "cucumber",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/cucumber/cucumber-js.git"
